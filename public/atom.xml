@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Eric Evenchick]]></title>
+  <link href="http://evenchick.com/atom.xml" rel="self"/>
+  <link href="http://evenchick.com/"/>
+  <updated>2012-09-29T10:01:41-04:00</updated>
+  <id>http://evenchick.com/</id>
+  <author>
+    <name><![CDATA[Eric Evenchick]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
