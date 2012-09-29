@@ -126,7 +126,34 @@ Currently, I am an Engineering &hellip;">
 
 <aside class="sidebar">
   
-    Liquid error: undefined method `each' for "About":String
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("ericevenchick", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/ericevenchick" class="twitter-follow-button" data-show-count="false">Follow @ericevenchick</a>
+  
+</section>
+
+
+
+
+
   
 </aside>
 
